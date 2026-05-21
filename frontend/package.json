@@ -3,9 +3,9 @@
   "version": "0.16.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo",
-    "build": "next build",
-    "start": "next start",
+  "dev": "next dev -p 1008",
+  "build": "next build",
+  "start": "next start -p 1008",
     "lint": "eslint . --ext .ts,.tsx --max-warnings=0",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
